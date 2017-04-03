@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Enjoy the Garden | Red Butte Garden</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" /> <!-- Google Font 'Open Sans' -->
+  <link rel="stylesheet" href="CSS/summer.css"> <!-- Additional local CSS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse">
+
+  <div id="navbarbg" class="container-fluid">
+    
+    <div id="rbgnavbar" class="container">    
+    
+		<div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	      </button>
+	      <a id="logo" class="pull-left" href="http://www.redbuttegarden.org"><img src="images/logo.png" alt="Red Butte Garden"></a>
+	    </div>
+	    
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      
+	      <ul class="nav navbar-nav">
+	        
+	        <li class="dropdown">
+	          <a class="dropdown-toggle" data-toggle="dropdown" href="#">VISIT <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">GARDEN MAPS</a></li>
+	            <li><a href="#">GIFT SHOP</a></li>
+	            <li><a href="#">FREE DAYS<br />& EVENTS</a></li>
+	            <li><a href="#">PRIVATE TOURS</a></li>
+				<li><a href="#">PLAY TALEBLAZER</a></li>
+	            <li><a href="#">POETRY IN <br />THE GARDEN</a></li>
+	          </ul>
+	        </li>
+	        
+			<li class="dropdown">
+	          <a class="dropdown-toggle" data-toggle="dropdown" href="#">PLANTS & GARDENS <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">OUR GARDENS</a></li>
+	            <li><a href="#">PLANT COLLECTIONS</a></li>
+	            <li><a href="#">WHAT'S BLOOMING<br /> NOW BLOG</a></li>
+	            <li><a href="#">CONSERVATION<br />RESEARCH</a></li>
+	            <li><a href="#">GARDENING IN UTAH</a></li>
+	          </ul>
+	        </li>
+			
+	        <li class="dropdown">
+	          <a class="dropdown-toggle" data-toggle="dropdown" href="#">EVENTS <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">SPRING</a></li>
+	            <li><a href="#">SUMMER</a></li>
+	            <li><a href="#">FALL</a></li>
+	            <li><a href="#">WINTER</a></li>
+	            <li><a href="#">EVENT CALENDAR</a></li>
+	          </ul>
+	        </li>
+			
+			<li class="dropdown">
+	          <a class="dropdown-toggle" data-toggle="dropdown" href="#">EDUCATION <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">WORKSHOPS & CLASSES</a></li>
+	            <li><a href="#">TOURS</a></li>
+	            <li><a href="#">LECTURES</a></li>
+		        <li><a href="#">KID'S CLASSES</a></li>
+	            <li><a href="#">SUMMER CAMP</a></li>
+	            <li><a href="#">TEACHERS & STUDENTS</a></li>
+	          </ul>
+	        </li>
+	        
+			<li class="dropdown">
+	          <a class="dropdown-toggle" data-toggle="dropdown" href="#">GET INVOLVED <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">ABOUT US</a></li>
+	            <li><a href="#">MEMBERSHIP</a></li>
+	            <li><a href="#">VOLUNTEER</a></li>
+	            <li><a href="#">GIVE</a></li>
+	            <li><a href="#">CURRENT FUNDRAISERS</a></li>
+	            <li><a href="#">CORPORATE <br />SPONSORSHIP</a></li>
+	          </ul>
+	        </li>
+
+	        <li class="dropdown">
+	          <a class="dropdown-toggle" data-toggle="dropdown" href="#">PRIVATE EVENTS <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">RENTAL RATES</a></li>
+	            <li><a href="#">WEDDINGS<br />& RECEPTIONS</a></li>
+	            <li><a href="#">CORPORATE EVENTS <br />& PRIVATE PARTIES</a></li>
+	            <li><a href="#">RENTAL SITES</a></li>
+	            <li><a href="#">CATERERS</a></li>
+	            <li><a href="#">RENTAL CALENDAR</a></li>
+	            <li><a href="#">PHOTOGRAPHY<br />POLICY</a></li>
+	            <li><a href="#">BIRTHDAY PARTIES</a></li>
+	          </ul>
+	        </li>
+	     
+	      </ul>
+	     
+	     <div>
+		     <div class="rbgsearch">
+				<form>
+					<span><input type="text" class="search rounded" placeholder="Search..."></span>
+				</form>
+			 </div>	     
+	
+		     <div class="nav-button">
+		     	<a href=""><img src="images/give.png"></a>
+		     </div>
+		     
+		     <div class="nav-button">
+		     	<a href="/memberships"><img src="images/join.png"></a>
+		     </div>
+		     
+		     <div class="nav-button">
+		     	<a href="/volunteer"><img src="images/volunteer.png"></a>
+		     </div>
+	     </div>
+	     
+	    </div>
+    
+    </div>
+      
+  </div>
+  
+</nav>

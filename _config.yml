@@ -1,0 +1,37 @@
+---
+title: Red Butte Garden
+timezone: America/Denver
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: :title/
+email: contact@redbuttegarden.org
+description: The official website of Red Butte Garden
+baseurl: ''
+url: http://redbuttegarden.org
+markdown: kramdown
+theme: minima
+gems:
+- jekyll-feed
+- jekyll-last-modified-at
+exclude:
+- Gemfile
+- Gemfile.lock
+- ".travis.yml"
+permalink: pretty
+prose:
+  events:
+    _posts:
+    - name: layout
+      field:
+        element: hidden
+        value: events

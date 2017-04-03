@@ -1,0 +1,50 @@
+---
+title: What's Blooming Blog
+layout: default
+---
+
+<div class="row-fluid">
+	<img id="blog-banner" class="responsive" src="/images/banners/whats-blooming-now-summer.jpg" alt="What's Blooming Now at Red Butte Garden" title="What's Blooming Now at Red Butte Garden" />
+</div>
+
+<h2 class="text-center green">Most Recent Posts</h2>
+
+<div class="row-fluid">
+  {% for post in site.categories.whats-blooming limit:6 %}
+	{% if post.url %}        
+	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+		<a href="{{ post.url }}">
+		<div class="eventwrapsmall hover">
+		
+			<img src="/images/blogs/{{ post.blog-image }}">
+			
+			<div class="eventinfo">
+				<div class="eventname">{{ post.title }}</div>
+				<div class="eventdate">{{ post.post-date }}</div>
+			</div>
+	
+		</div>
+		</a> 
+	</div>
+    {% endif %} 
+  {% endfor %}
+</div>
+
+
+<br />
+<h2 class="text-center green">Previous Posts</h2>
+<br />
+
+{% for post in site.categories.whats-blooming %}
+  {% assign currentdate = post.date | date: "%Y" %}
+  {% if currentdate != date %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <h4 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h4>
+    <ul>
+    {% assign date = currentdate %}
+  {% endif %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% if forloop.last %}</ul>{% endif %}
+{% endfor %}
+
+{% include whats-blooming-banner-js.html %}

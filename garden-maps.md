@@ -1,0 +1,41 @@
+---
+title: Garden Maps
+layout: default
+---
+
+<h1 class="text-center">Garden Maps</h1>
+
+<h4>Wildlife in the Garden</h4>
+
+<p>We are located in the foothills of the Wasatch Mountain Range which is a natural habitat for many wild animals such as deer, coyotes, bobcats, squirrels, rabbits, raccoons, snakes, and birds. For your safety and theirs, do not approach wildlife in the Garden, please respect them from a distance.</p>
+
+<p><a href="/garden-tours">Want to explore the garden? CLICK HERE for information about Guided Garden Tours.</a></p>
+
+
+<div class="row text-center">
+
+	<div class="col-sm-6">
+	
+		<h3 class="green">Main Garden Map</h3>
+		
+		<p><a href="/plant-map">CLICK HERE to see what is growing in the Main Gardens</a></p>
+		
+		<a href="/documents/main-garden-map.pdf">
+			<img src="/images/misc/main-garden-map.jpg" alt="Main Garden Map" title="Main Garden Map" class="responsive" />
+		</a>
+		
+	</div>
+	
+	<div class="col-sm-6">
+		
+		<h3 class="green">Natural Area Map</h3>
+		
+		<p><a href="/documents/natural-area-checklist.pdf">CLICK HERE to see what is growing in our Natural Area</a></p>
+		
+		<a href="/documents/natural-area-map.pdf">
+			<img src="/images/misc/natural-area-map.jpg" alt="Natural Area Map" title="Natural Area Map" class="responsive" />
+		</a>
+		
+	</div>
+
+</div>

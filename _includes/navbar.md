@@ -1,0 +1,123 @@
+<!-- Begin Navbar -->
+<div class="navbar-wrapper">
+		
+		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+
+		  <div id="navbarbg" class="container-fluid">
+		    
+		    <div id="rbgnavbar" class="container-fluid">    
+		    
+				<div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>                        
+			      </button>
+			      <a id="logo" class="pull-left" href="/index"><img src="/images/core/logo.png" class="hover" alt="Red Butte Garden" title="Red Butte Garden" /></a>
+			    </div>
+			    
+			    <div class="collapse navbar-collapse" id="myNavbar">
+			      
+			      <ul class="nav navbar-nav">
+			        
+			        <li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown" href="#">VISIT <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+						<a href="/general-info"><li>GENERAL INFO</li></a>
+						<a href="/about-us"><li>ABOUT US</li></a>
+			            <a href="/garden-maps"><li>GARDEN MAPS</li></a>
+			            <a href="/gift-shop"><li>GIFT SHOP</li></a>
+			            <a href="/free-garden-events"><li>FREE DAYS<br />&amp; EVENTS</li></a>
+			            <a href="/garden-tours"><li>GARDEN TOURS</li></a>
+						<a href="/taleblazer"><li>PLAY TALEBLAZER</li></a>
+			            <a href="/poetry"><li>POETRY IN <br />THE GARDEN</li></a>
+			            <a href="/whats-happening"><li>WHAT'S HAPPENING BLOG</li></a>
+			          </ul>
+			        </li>
+			        
+					<li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown" href="#">PLANTS &amp; GARDENS <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <a href="/gardens"><li>OUR GARDENS</li></a>
+			            <a href="/plant-collections"><li>PLANT COLLECTIONS</li></a>
+			            <a href="http://plants.redbuttegarden.org"><li>INTERACTIVE<br/>PLANT MAP</li></a>
+			            <a href="/conservation-research"><li>CONSERVATION<br />RESEARCH</li></a>
+			            <a href="/gardening-in-utah"><li>GARDENING IN UTAH</li></a>
+			            <a href="/whats-blooming"><li>WHAT'S BLOOMING<br /> NOW BLOG</li></a>
+			          </ul>
+			        </li>
+					
+			        <li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown" href="#">EVENTS <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <a href="/concerts"><li class="concert-li">OUTDOOR CONCERT SERIES</li></a>
+			            <a href="/spring"><li>SPRING EVENTS</li></a>
+			            <a href="/summer"><li>SUMMER EVENTS</li></a>
+			            <a href="/fall"><li>FALL EVENTS</li></a>
+			            <a href="/winter"><li>WINTER EVENTS</li></a>
+			            <a href="/calendar"><li>EVENT CALENDAR</li></a>
+			          </ul>
+			        </li>
+					
+					<li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown" href="#">EDUCATION <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <a href="/adult-education"><li>EDUCATION &amp; WORKSHOPS<br/ >FOR ADULTS</li></a>
+			            <a href="/summer-camp"><li>SUMMER CAMP</li></a>			            
+			            <a href="/kids-classes"><li>KIDS CLASSES</li></a>
+				        <a href="/lectures"><li>LECTURES</li></a>
+			            <a href="/teachers-and-students"><li>TEACHERS & STUDENTS</li></a>
+			          </ul>
+			        </li>
+			        
+					<li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown" href="#">GET INVOLVED <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <a href="/volunteer"><li>VOLUNTEER</li></a>			          
+			            <a href="https://55218.blackbaudhosting.com/55218/Annual-Gift"><li>GIVE</li></a>
+			            <a href="/memberships"><li>MEMBERSHIP</li></a>
+			            <a href="/current-fundraisers"><li>CURRENT FUNDRAISERS</li></a>
+			            <a href="/corporate-sponsorship"><li>CORPORATE <br />SPONSORSHIP</li></a>
+			            <a href="/employment"><li>EMPLOYMENT</li></a>
+			          </ul>
+			        </li>
+		
+			        <li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown" href="#">PRIVATE EVENTS <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <a href="/weddings-and-receptions"><li>WEDDINGS<br />&amp; RECEPTIONS</li></a>
+			            <a href="/private-parties"><li>CORPORATE EVENTS <br />&amp; PRIVATE PARTIES</li></a>
+			            <a href="/rental-sites"><li>RENTAL SITES</li></a>
+			            <a href="/rental-availability"><li>RENTAL AVAILABILITY</li></a>
+			            <a href="/rental-rates-and-catering"><li>RENTAL RATES<br />& CATERING</li></a>
+			          </ul>
+			        </li>
+			        
+			        <li class="dropdown search" id="navhide4">
+			          	<span class="dropdown-toggle searchicon"><a href="/search"><img src="/images/search.png"></a></span>
+
+			        </li>
+					<br class="br-hide-lg" />
+					<li class="dropdown navbutton" id="navhide1">
+			        	<a class="dropdown-toggle" href="https://55218.blackbaudhosting.com/55218/Annual-Gift">GIVE</a>
+			        </li>  
+			           
+			        <li class="dropdown navbutton" id="navhide2">
+			         	 <a class="dropdown-toggle" href="/memberships">JOIN</a>
+			        </li>
+			        
+			        <li class="dropdown navbutton" id="navhide3">
+			         	 <a class="dropdown-toggle" href="/volunteer">VOLUNTEER</a>
+			        </li>
+			        
+			      </ul>
+			     
+			    </div>
+		    
+		    </div>
+		      
+		  </div>
+		  
+		</nav>
+</div>
+<!-- End Navbar -->

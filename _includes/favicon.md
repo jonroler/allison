@@ -1,0 +1,1 @@
+<link rel="icon" type="image/png" href="/images/core/rbg-favicon-leaf-32x32.png" />
